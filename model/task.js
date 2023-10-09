@@ -10,8 +10,8 @@ const schema = new mongoose.Schema({
         required: true,
     },
     isCompleted: {
-        type: bool,
-        defautl: false,
+        type: Boolean,
+        default: false,
     },
     user: {
         type: mongoose.Schema.Types.ObjectId,
